@@ -1,0 +1,138 @@
+@font-face {
+        font-family: 'WixMadeforDisplay';
+        src: url('font/WixMadeforDisplay.ttf') format('truetype');
+        /* Imposta il percorso corretto del file del font */
+}
+
+@font-face {
+        font-family: 'Caveat';
+        src: url('font/Caveat.ttf') format('truetype');
+}
+
+
+
+.body {
+        background-color: #333;
+        color: #fff;
+        height: 100vh;
+        /* Imposta l'altezza del body al 100% dell'altezza della finestra del browser */
+        margin: 10px;
+        /* Rimuove il margine predefinito del body */
+        padding: 0;
+        /* Rimuove il padding predefinito del body */
+
+}
+
+.dark-theme {
+        background-color: whitesmoke;
+        color: #000;
+}
+
+.navbar {
+        border-radius: 15px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        /* Centra verticalmente gli elementi */
+        height: 5%;
+}
+
+.navbar-name-link {
+        color: inherit;
+        text-decoration: none;
+        font-size: 200%;
+        font-weight: 800;
+        font-family: "Caveat";
+        margin-right: auto;
+        /* Allinea `.navbar-name-link` a sinistra */
+}
+
+.icons-navbar {
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        /* Allinea `.icons-navbar` a destra */
+}
+
+.navbar-button {
+        padding: 5px 20px;
+        border: none;
+        border-radius: 10px;
+        font-size: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+}
+
+.navbar-link {
+        text-decoration: none;
+}
+
+
+.principal {
+        display: flex;
+        flex-direction: row;
+        height: 70%;
+        padding: 0;
+        border: 0;
+        justify-items: center;
+        align-items: center;
+}
+
+.text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        justify-items: center;
+        align-items: flex-start;
+}
+
+.greet {
+        font-family: 'WixMadeforDisplay';
+
+        text-decoration: none;
+        font-size: 350%;
+        font-weight: bold;
+}
+
+.paragraph {
+        font-family: 'WixMadeforDisplay';
+        text-decoration: none;
+        font-size: 250%;
+}
+
+
+
+.scuts {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: flex-start;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-left: 2px solid;
+}
+
+.scutsitems {
+        color: inherit;
+        font-family: 'WixMadeforDisplay';
+        text-decoration: none;
+        font-size: 180%;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        transition: font-size 0s;
+        transition-timing-function: linear;
+}
+
+.scutsitems:hover {
+        font-weight: 550;
+        font-size: 190%;
+}
+
+
+.icons {
+        color: inherit;
+        font-size: 23px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+}
