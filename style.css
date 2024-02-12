@@ -23,8 +23,25 @@
 
 }
 
+
+
+.keyword {
+        color: #000;
+        padding: 0 2px;
+        font-weight: bolder;
+        background-color: #ffae42;
+        border-radius: 15px;
+}
+
+.dark-keyword {
+        padding: 0 2px;
+        font-weight: bolder;
+        background-color: #C7C8CC;
+        border-radius: 20px;
+}
+
 .dark-theme {
-        background-color: whitesmoke;
+        background-color: #f5f5f5;
         color: #000;
 }
 
@@ -33,7 +50,6 @@
         padding: 15px;
         display: flex;
         align-items: center;
-        /* Centra verticalmente gli elementi */
         height: 5%;
 }
 
@@ -44,7 +60,6 @@
         font-weight: 800;
         font-family: "Caveat";
         margin-right: auto;
-        /* Allinea `.navbar-name-link` a sinistra */
 }
 
 .icons-navbar {
@@ -100,6 +115,11 @@
         font-size: 250%;
 }
 
+.paragraph_s {
+        font-family: 'WixMadeforDisplay';
+        text-decoration: none;
+        font-size: 150%;
+}
 
 
 .scuts {
@@ -130,9 +150,35 @@
 }
 
 
+
+
 .icons {
         color: inherit;
-        font-size: 23px;
+        font-size: 25px;
         margin-left: 0.5%;
         margin-right: 0.5%;
+        cursor: pointer;
+}
+
+.lowbar-icons {
+        display: flex;
+        color: inherit;
+        justify-content: center;
+        /* Centra orizzontalmente gli elementi */
+        align-items: center;
+
+}
+
+.icons-low {
+        color: inherit;
+        font-size: 40px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        cursor: pointer;
+        margin: 0 20px;
+}
+
+
+.a {
+        text-decoration: none
 }

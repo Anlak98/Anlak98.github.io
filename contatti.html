@@ -12,7 +12,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-
 </head>
 
 <body class="body">
@@ -25,17 +24,18 @@
         </div>
 
 
+
         <div class="principal">
                 <div class="text">
-                        <p class="greet">Ciao, sono <span class="keyword">Anas Laknitri</span> !</p>
-                        <p class="paragraph"> Studente di ingegneria informatica.
+                        <p class="paragraph"> Mandami un messaggio su <span class="keyword">Linkedin</span> o su <span
+                                        class="keyword">Instagram</span> oppure una <span class="keyword">mail</span>.
                         </p>
 
                 </div>
                 <div class="scuts">
+                        <a class="scutsitems" href="/index.html">Home</a>
                         <a class="scutsitems" href="/info.html">Info</a>
                         <a class="scutsitems" href="/progetti.html">Progetti</a>
-                        <a class="scutsitems" href="/contatti.html">Contatti</a>
                 </div>
         </div>
 
@@ -52,11 +52,9 @@
                 <a href="https://www.instagram.com/anas_laknitri/" target="_blank" class="navbar-link icons-low">
                         <i class="fa-brands fa-instagram icons-low"></i>
                 </a>
-
                 <a href="mailto:laknitrianas@gmail.com" class="navbar-link icons-low">
                         <i class="fa-solid fa-envelope icons-low"></i>
                 </a>
-
         </div>
 
         <script>
@@ -67,6 +65,7 @@
                         // Visualizza gradualmente il corpo della pagina con un effetto di dissolvenza
                         $('body').fadeIn(800); // Puoi regolare la durata dell'effetto di dissolvenza (in millisecondi) come preferisci
                 });
+
                 // Funzione per impostare lo stato del tema
                 function setTheme(theme) {
                         localStorage.setItem('theme', theme);
@@ -94,7 +93,20 @@
                                 setTheme('dark'); // Puoi impostare il tema predefinito come preferisci
                         }
                 };
+
+
+                document.getElementById("contactForm").addEventListener("submit", function (event) {
+                        event.preventDefault(); // Evita che la pagina si ricarichi
+
+                        // Recupera i valori inseriti nei campi
+                        var message = document.getElementById("message").value;
+                        var contact = document.getElementById("contact").value;
+
+                        // Invia il messaggio e il contatto tramite e-mail (usando mailto)
+                        window.location.href = "mailto:tua@mail.com?subject=Messaggio&body=Messaggio:%20" + encodeURIComponent(message) + "%0D%0AContatto:%20" + encodeURIComponent(contact);
+                });
         </script>
+
 
 </body>
 

@@ -12,7 +12,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-
 </head>
 
 <body class="body">
@@ -21,24 +20,27 @@
         <div class="navbar">
                 <a class="navbar-name-link" href="/index.html">Anas Laknitri</a>
                 <i onclick="changeTheme()" class="fa-solid fa-circle-half-stroke icons icons-navbar"></i>
-
         </div>
 
 
         <div class="principal">
                 <div class="text">
-                        <p class="greet">Ciao, sono <span class="keyword">Anas Laknitri</span> !</p>
-                        <p class="paragraph"> Studente di ingegneria informatica.
+                        <p class="paragraph_s"> Ciao, sono Anas. Mi piace risolvere problemi creando <span
+                                        class="keyword">soluzioni innovative</span>.</p>
+                        <p class="paragraph_s">Sono uno studente di ingegneria informatica alla ricerca di opportunità
+                                per applicare le mie conoscenze e <span class="keyword">apprenderne</span> di nuove in
+                                un ambiente <span class="keyword">stimolante e dinamico</span>.
+                                <br>Se sei interessato a collaborare o vuoi saperne di più su di me, non esitare a
+                                contattarmi.
                         </p>
 
                 </div>
                 <div class="scuts">
-                        <a class="scutsitems" href="/info.html">Info</a>
+                        <a class="scutsitems" href="/index.html">Home</a>
                         <a class="scutsitems" href="/progetti.html">Progetti</a>
                         <a class="scutsitems" href="/contatti.html">Contatti</a>
                 </div>
         </div>
-
         <div class="lowbar-icons">
                 <a href="https://github.com/Anlak98" target="_blank" class="navbar-link icons-low">
                         <i class="fa-brands fa-github icons-low"></i>
@@ -56,9 +58,7 @@
                 <a href="mailto:laknitrianas@gmail.com" class="navbar-link icons-low">
                         <i class="fa-solid fa-envelope icons-low"></i>
                 </a>
-
         </div>
-
         <script>
                 $(document).ready(function () {
                         // Nasconde il corpo della pagina
@@ -67,6 +67,7 @@
                         // Visualizza gradualmente il corpo della pagina con un effetto di dissolvenza
                         $('body').fadeIn(800); // Puoi regolare la durata dell'effetto di dissolvenza (in millisecondi) come preferisci
                 });
+
                 // Funzione per impostare lo stato del tema
                 function setTheme(theme) {
                         localStorage.setItem('theme', theme);
@@ -95,6 +96,7 @@
                         }
                 };
         </script>
+
 
 </body>
 
