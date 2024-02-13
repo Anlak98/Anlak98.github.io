@@ -180,7 +180,7 @@
 
 @media (max-width: 600px) {
         .icons-low {
-            font-size: 30px; /* Riduci la dimensione delle icone per adattarsi ai dispositivi mobili */
+            font-size: 10px; /* Riduci la dimensione delle icone per adattarsi ai dispositivi mobili */
             margin: 0 10px; /* Modifica i margini per adattarsi ai dispositivi mobili */
         }
     }
