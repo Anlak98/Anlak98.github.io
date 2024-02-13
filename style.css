@@ -207,4 +207,14 @@
                 text-decoration: none;
                 font-size: 50%;
         }
+
+        .greet {
+                font-family: 'WixMadeforDisplay';
+        
+                text-decoration: none;
+                font-size: 250%;
+                font-weight: bold;
+        }
+
+
     }
