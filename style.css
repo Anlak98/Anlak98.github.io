@@ -216,5 +216,32 @@
                 font-weight: bold;
         }
 
+        .scuts {
+                display: flex;
+                flex-direction: column;
+                justify-items: center;
+                align-items: flex-start;
+                margin-left: 5%;
+                margin-right: 5%;
+                border-left: 1px solid;
+        }
+        
+        .scutsitems {
+                color: inherit;
+                font-family: 'WixMadeforDisplay';
+                text-decoration: none;
+                font-size: 80%;
+                margin-top: 15%;
+                margin-bottom: 5%;
+                margin-left: 5%;
+                transition: font-size 0s;
+                transition-timing-function: linear;
+        }
+        
+        .scutsitems:hover {
+                font-weight: 550;
+                font-size: 90%;
+        }
+
 
     }
