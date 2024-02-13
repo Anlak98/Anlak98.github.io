@@ -235,7 +235,7 @@
                 color: inherit;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
-                font-size: 100%;
+                font-size: 150%;
                 margin-top: 15%;
                 margin-bottom: 0.5%;
                 margin-left: 0.2%;
@@ -245,7 +245,7 @@
         
         .scutsitems:hover {
                 font-weight: 550;
-                font-size: 105%;
+                font-size: 155%;
         }
 
 
