@@ -178,36 +178,13 @@
         margin: 0 20px;
 }
 
+@media (max-width: 600px) {
+        .icons-low {
+            font-size: 30px; /* Riduci la dimensione delle icone per adattarsi ai dispositivi mobili */
+            margin: 0 10px; /* Modifica i margini per adattarsi ai dispositivi mobili */
+        }
+    }
 
 .a {
         text-decoration: none
 }
-
-@media (max-width: 600px) {
-        .navbar-name-link {
-            font-size: 150%; /* Riduci la dimensione del testo nella barra di navigazione */
-        }
-        
-        .icons-low {
-            font-size: 30px; /* Riduci la dimensione delle icone nella barra inferiore */
-        }
-    
-        .principal {
-            flex-direction: column; /* Imposta il layout dei contenuti principali su una colonna */
-            height: auto; /* Imposta l'altezza automaticamente per adattarsi ai contenuti */
-        }
-    
-        .text {
-            margin-left: 5%; /* Riduci il margine sinistro per il testo principale */
-            margin-right: 5%; /* Riduci il margine destro per il testo principale */
-        }
-    
-        .scuts {
-            margin-left: 5%; /* Riduci il margine sinistro per la sezione delle scorciatoie */
-            margin-right: 5%; /* Riduci il margine destro per la sezione delle scorciatoie */
-        }
-    
-        .scutsitems {
-            font-size: 150%; /* Riduci la dimensione del testo delle scorciatoie */
-        }
-    }
