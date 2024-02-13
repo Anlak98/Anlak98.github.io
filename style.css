@@ -195,4 +195,16 @@
                 font-family: "Caveat";
                 margin-right: auto;
         }
+
+        .paragraph {
+                font-family: 'WixMadeforDisplay';
+                text-decoration: none;
+                font-size: 150%;
+        }
+        
+        .paragraph_s {
+                font-family: 'WixMadeforDisplay';
+                text-decoration: none;
+                font-size: 50%;
+        }
     }
