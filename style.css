@@ -237,7 +237,7 @@
 
         .greet {
                 position: absolute;
-                top: -5px; /* Regola questo valore in base alle tue esigenze */
+                top: -1px; /* Regola questo valore in base alle tue esigenze */
                 margin-left: 0.2%;
                 font-family: 'WixMadeforDisplay';
                 margin-right: 0.2%;
