@@ -178,7 +178,13 @@
         margin: 0 20px;
 }
 
-
 .a {
         text-decoration: none
 }
+
+@media (max-width: 600px) {
+        .icons-low {
+            font-size: 30px; /* Riduci la dimensione delle icone per adattarsi ai dispositivi mobili */
+            margin: 0 30px; /* Maggiori margini laterali per adattarsi ai dispositivi mobili */
+        }
+    }
