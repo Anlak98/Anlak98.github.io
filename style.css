@@ -237,12 +237,12 @@
 
         .greet {
                 position: absolute;
-                top: 40px; /* Regola questo valore in base alle tue esigenze */
+                top: 120px; /* Regola questo valore in base alle tue esigenze */
                 margin-left: 0.2%;
                 font-family: 'WixMadeforDisplay';
                 margin-right: 0.2%;
                 text-decoration: none;
-                font-size: 150%;
+                font-size: 160%;
                 font-weight: bold;
         }
 
