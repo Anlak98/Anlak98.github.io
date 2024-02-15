@@ -248,32 +248,35 @@
                 margin-right: 0.2%;
                 display: flex;
                 flex-direction: row;
-                justify-content: center; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
-                align-items: center;
+                justify-content: center; /* Centra gli elementi lungo l'asse orizzontale */
+                align-items: center; /* Centra verticalmente */
                 height: 70%;
                 padding: 0;
                 border: 0;
-        }
-        
-        .scuts {
+                position: relative; /* Aggiungi questa riga */
+            }
+            
+            .scuts {
                 position: absolute;
-                top: 50px; 
-
+                top: 50px;
+                left: 50%; /* Centra il contenitore .scuts orizzontalmente */
+                transform: translateX(-50%); /* Centra il contenitore .scuts orizzontalmente */
                 border-left: 10px;
-                flex: 1;
-        }
-        
-        .scutsitems {
+            }
+            
+            .scutsitems {
                 color: inherit;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
                 font-size: 120%;
                 margin-bottom: 0.5%;
-                margin-left: 5px; /* Aggiungi un margine sinistro */
-                margin-right: 5px; /* Aggiungi un margine destro */
+                margin-left: 5px;
+                margin-right: 5px;
                 transition: font-size 0s;
                 transition-timing-function: linear;
-        }
+                display: inline-block; /* Per centrare i link orizzontalmente */
+            }
+            
             
             
             
