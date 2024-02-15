@@ -244,25 +244,23 @@
         }
             
         .principal {
-        margin-left: 0.2%;
-        margin-right: 0.2%;
-        display: flex;
-        flex-direction: row;
-        height: 70%;
-        padding: 0;
-        border: 0;
+                margin-left: 0.2%;
+                margin-right: 0.2%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
+                align-items: center;
+                height: 70%;
+                padding: 0;
+                border: 0;
         }
         
         .scuts {
-        position: absolute;
-        top: 40px; 
-        display: flex;
-        flex-direction: row;
-        justify-content: center; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
-        align-items: center; /* Centra verticalmente */
-        border-left: 10px;
-        flex: 1;
-        text-align: center; /* Centra il testo orizzontalmente */
+                position: absolute;
+                top: 40px; 
+
+                border-left: 10px;
+                flex: 1;
         }
         
         .scutsitems {
