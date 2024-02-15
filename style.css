@@ -262,6 +262,7 @@
                 border-left: 0px;
                 display: flex;
                 flex-direction: row;
+                gap: 10px; /* Imposta lo spazio tra gli elementi */
             }
             
             .scutsitems {
