@@ -258,7 +258,7 @@
             
             .scuts {
                 position: absolute;
-                top: 10px;
+                top: 5px;
                 border-left: 0px;
                 display: flex;
                 flex-direction: row;
