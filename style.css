@@ -230,7 +230,7 @@
 
         .greet {
                 position: absolute;
-                top: 120px; 
+                top: 130px; 
                 left: 50%;
                 transform: translateX(-50%);
                 margin-left: 0.2%;
@@ -255,7 +255,7 @@
         
         .scuts {
         position: absolute;
-        top: 30px; 
+        top: 40px; 
         display: flex;
         flex-direction: row;
         justify-content: space-between; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
