@@ -236,7 +236,7 @@
 
         .greet {
                 position: absolute;
-                top: 120px; /* Regola questo valore in base alle tue esigenze */
+                top: 120px; 
                 margin-left: 0.2%;
                 font-family: 'WixMadeforDisplay';
                 margin-right: 0.2%;
@@ -246,6 +246,8 @@
         }
 
         .scuts {
+                position: absolute;
+                top: 80px; 
                 display: flex;
                 flex-direction: row;
                 justify-items: center;
