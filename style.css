@@ -262,6 +262,7 @@
         align-items: center; /* Centra verticalmente */
         border-left: 10px;
         flex: 1;
+        text-align: center; /* Centra il testo orizzontalmente */
         }
         
         .scutsitems {
