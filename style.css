@@ -256,14 +256,14 @@
             
             .scuts {
                 position: absolute;
-                top: 90px; 
+                top: 60px; 
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between; /* Distribuisci uniformemente gli elementi */
                 align-items: center; /* Centra verticalmente */
                 margin-left: 0.2%;
                 margin-right: 0.2%;
-                border-left: 0px;
+                border-left: 10px;
                 flex: 1;
             }
             
@@ -271,7 +271,7 @@
                 color: inherit;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
-                font-size: 100%; /* Modifica la dimensione del font se necessario */
+                font-size: 120%; /* Modifica la dimensione del font se necessario */
                 margin-bottom: 0.5%;
                 margin-left: 10px; /* Modifica il margine sinistro */
                 margin-right: 10px; /* Modifica il margine destro */
