@@ -271,14 +271,14 @@
                 color: inherit;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
-                font-size: 120%;
-                margin-top: 15%;
+                font-size: 100%; /* Modifica la dimensione del font se necessario */
                 margin-bottom: 0.5%;
-                margin-left: 5%; /* Margine sinistro */
-                margin-right: 5%; /* Margine destro */
+                margin-left: 10px; /* Modifica il margine sinistro */
+                margin-right: 10px; /* Modifica il margine destro */
                 transition: font-size 0s;
                 transition-timing-function: linear;
             }
+            
             
         
         .scutsitems:hover {
