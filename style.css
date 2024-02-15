@@ -256,10 +256,10 @@
             
             .scuts {
                 position: absolute;
-                top: 60px; 
+                top: 50px; 
                 display: flex;
                 flex-direction: row;
-                justify-content: space-between; /* Distribuisci uniformemente gli elementi */
+                justify-content: center; /* Distribuisci uniformemente gli elementi */
                 align-items: center; /* Centra verticalmente */
                 margin-left: 0.2%;
                 margin-right: 0.2%;
