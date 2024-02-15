@@ -265,14 +265,17 @@
         }
         
         .scutsitems {
-        color: inherit;
-        font-family: 'WixMadeforDisplay';
-        text-decoration: none;
-        font-size: 120%;
-        margin-bottom: 0.5%;
-        transition: font-size 0s;
-        transition-timing-function: linear;
+                color: inherit;
+                font-family: 'WixMadeforDisplay';
+                text-decoration: none;
+                font-size: 120%;
+                margin-bottom: 0.5%;
+                margin-left: 5px; /* Aggiungi un margine sinistro */
+                margin-right: 5px; /* Aggiungi un margine destro */
+                transition: font-size 0s;
+                transition-timing-function: linear;
         }
+            
             
             
             
