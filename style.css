@@ -256,7 +256,7 @@
             
             .scuts {
                 position: absolute;
-                top: 80px; 
+                top: 60px; 
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between; /* Distribuisci uniformemente gli elementi */
