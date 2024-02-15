@@ -259,10 +259,6 @@
             .scuts {
                 position: absolute;
                 top: 20px;
-                left: 0; /* Posiziona il contenitore .scuts all'estremità sinistra */
-                display: flex; /* Utilizza il layout flex */
-                align-items: center; /* Centra verticalmente i suoi figli */
-                border-left: 10px;
             }
             
             .scutsitems {
