@@ -259,23 +259,20 @@
             }
             
             
-        .scuts {
+            .scuts {
                 position: absolute;
                 top: 80px; 
                 display: flex;
                 flex-direction: row;
-                justify-content: center; /* Centra gli elementi lungo l'asse orizzontale */
+                justify-content: space-between; /* Distribuisci uniformemente gli elementi */
+                align-items: center; /* Centra verticalmente */
                 margin-left: 0.2%;
                 margin-right: 0.2%;
                 border-left: 0px;
                 flex: 1;
-                display: flex;
-                justify-content: space-between; /* Distribuisci uniformemente gli elementi */
-                align-items: center; /* Centra verticalmente */
-        }
-
-        
-        .scutsitems {
+            }
+            
+            .scutsitems {
                 color: inherit;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
@@ -286,7 +283,8 @@
                 margin-right: 5%; /* Margine destro */
                 transition: font-size 0s;
                 transition-timing-function: linear;
-        }
+            }
+            
         
         .scutsitems:hover {
                 font-style: bold;
