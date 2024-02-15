@@ -225,9 +225,6 @@
                 text-decoration: none;
                 font-size: 150%;
                 text-align: center; /* Centra orizzontalmente */
-                display: flex;
-                justify-content: center; /* Centra orizzontalmente */
-                align-items: center; /* Centra verticalmente */
             }
             
             .paragraph_s {
@@ -235,10 +232,8 @@
                 text-decoration: none;
                 font-size: 70%;
                 text-align: center; /* Centra orizzontalmente */
-                display: flex;
-                justify-content: center; /* Centra orizzontalmente */
-                align-items: center; /* Centra verticalmente */
             }
+            
             
             
 
