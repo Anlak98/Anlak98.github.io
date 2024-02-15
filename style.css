@@ -207,15 +207,6 @@
                 justify-items: center;
                 align-items: flex-start;
         }
-        .principal {
-                margin-left: 0.2%;
-                margin-right: 0.2%;
-                display: flex;
-                flex-direction: row;
-                height: 70%;
-                padding: 0;
-                border: 0;
-            }
             
 
 
@@ -250,31 +241,39 @@
                 font-weight: bold;
                 width: 100%; /* Utilizza l'intera larghezza del contenitore */
                 text-align: center; /* Centra il testo orizzontalmente */
-            }
+        }
             
+        .principal {
+        margin-left: 0.2%;
+        margin-right: 0.2%;
+        display: flex;
+        flex-direction: row;
+        height: 70%;
+        padding: 0;
+        border: 0;
+        }
+        
+        .scuts {
+        position: absolute;
+        top: 30px; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
+        align-items: center; /* Centra verticalmente */
+        border-left: 10px;
+        flex: 1;
+        }
+        
+        .scutsitems {
+        color: inherit;
+        font-family: 'WixMadeforDisplay';
+        text-decoration: none;
+        font-size: 120%;
+        margin-bottom: 0.5%;
+        transition: font-size 0s;
+        transition-timing-function: linear;
+        }
             
-            .scuts {
-                position: absolute;
-                top: 30px; 
-                display: flex;
-                flex-direction: row;
-                justify-content: center; /* Centra gli elementi lungo l'asse orizzontale */
-                align-items: center; /* Centra verticalmente */
-                margin-left: 0.2%;
-                margin-right: 0.2%;
-                border-left: 10px;
-                flex: 1;
-            }
-            
-            .scutsitems {
-                color: inherit;
-                font-family: 'WixMadeforDisplay';
-                text-decoration: none;
-                font-size: 120%;
-                margin-bottom: 0.5%;
-                transition: font-size 0s;
-                transition-timing-function: linear;
-            }
             
             
             
