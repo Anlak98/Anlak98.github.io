@@ -238,14 +238,17 @@
                 position: absolute;
                 top: 120px; 
                 left: 50%;
-                transform: translateX(-50%); /* Centra orizzontalmente */
+                transform: translateX(-50%);
                 margin-left: 0.2%;
                 margin-right: 0.2%;
                 font-family: 'WixMadeforDisplay';
                 text-decoration: none;
                 font-size: 160%;
                 font-weight: bold;
+                width: 100%; /* Utilizza l'intera larghezza del contenitore */
+                text-align: center; /* Centra il testo orizzontalmente */
             }
+            
             
         .scuts {
                 position: absolute;
