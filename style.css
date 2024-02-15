@@ -258,7 +258,7 @@
         top: 40px; 
         display: flex;
         flex-direction: row;
-        justify-content: space-between; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
+        justify-content: center; /* Distribuisci uniformemente gli elementi lungo l'asse orizzontale */
         align-items: center; /* Centra verticalmente */
         border-left: 10px;
         flex: 1;
