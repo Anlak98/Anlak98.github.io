@@ -259,6 +259,9 @@
             .scuts {
                 position: absolute;
                 top: 20px;
+                border-left: px;
+                display: flex;
+                flex-direction: row;
             }
             
             .scutsitems {
